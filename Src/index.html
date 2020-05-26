@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>caozha-Neditor编辑器用法演示</title>
+<style type="text/css">
+body{font-size:12px;color:#333333;}
+</style>
+</head>
+<body style="text-align: center;">
+<form name="form1" method="post" action="" style="margin: 100px auto 0px auto;">
+<textarea name="content" id="content" style="display: none">
+此处可编辑内容……<br><br><b>    Site:&nbsp;&nbsp;</b><a href="http://www.caozha.com">www.caozha.com</a><br><br><b>Gitee:&nbsp;&nbsp;</b><a href="https://gitee.com/caozha/caozha-neditor">https://gitee.com/caozha/caozha-neditor</a><br><b>Github:&nbsp;&nbsp;</b><a href="https://github.com/cao-zha/caozha-neditor">https://github.com/cao-zha/caozha-neditor
+</a>
+</textarea>
+<iframe src="caozha-neditor/editor.html?id=content" frameborder="0" scrolling="no" width="700" height="350"></iframe>
+<br><br>
+<input type="button" value="获取编辑器内容" onClick="alert(content.value);">
+</form>
+</body>
+</html>
